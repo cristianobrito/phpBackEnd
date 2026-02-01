@@ -1,0 +1,26 @@
+/var/www/html:
+total 0
+-rwxrwxrwx 1 1000 1000  133 Feb  1 12:25 docker-compose.yml
+-rwxrwxrwx 1 1000 1000    0 Feb  1 15:51 dois.txt
+-rwxrwxrwx 1 1000 1000   19 Feb  1 12:45 index.php
+drwxrwxrwx 1 1000 1000 4096 Feb  1 13:50 shell
+-rwxrwxrwx 1 1000 1000   44 Feb  1 12:25 teste.txt
+-rwxrwxrwx 1 1000 1000    0 Feb  1 15:55 tres.txt
+-rwxrwxrwx 1 1000 1000    0 Feb  1 15:45 um.txt
+
+/var/www/html/shell:
+total 0
+drwxrwxrwx 1 1000 1000 4096 Feb  1 15:54 protecao
+
+/var/www/html/shell/protecao:
+total 24
+-rwxrwxrwx 1 1000 1000 933 Feb  1 15:53 estado_anterior.txt
+-rwxrwxrwx 1 1000 1000   0 Feb  1  2026 estado_atual.txt
+-rwxrwxrwx 1 1000 1000 338 Feb  1 14:08 protecao.sh
+-rwxrwxrwx 1 1000 1000 702 Feb  1 14:09 protecao2.sh
+-rwxrwxrwx 1 1000 1000 487 Feb  1 14:22 protecao3.sh
+-rwxrwxrwx 1 1000 1000 690 Feb  1 14:34 protecao4.sh
+-rwxrwxrwx 1 1000 1000 958 Feb  1 15:20 protecao5.sh
+-rwxrwxrwx 1 1000 1000 831 Feb  1 15:52 protecao6.sh
+-rwxrwxrwx 1 1000 1000 554 Feb  1 15:54 protecao7.sh
+-rwxrwxrwx 1 1000 1000 172 Feb  1 15:20 scan.log
