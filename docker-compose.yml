@@ -7,3 +7,4 @@ services:
     volumes:
       - ./:/var/www/html
       - ~/.netrc:/root/.netrc:ro
+      
