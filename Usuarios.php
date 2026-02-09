@@ -6,7 +6,7 @@
 
 class Usuarios 
 {
-    /** @var caminho do arquivo onde os nome são armazenados */
+    /** @var string caminho do arquivo onde os nome são armazenados */
     private string $arquivo = 'dados.txt';
 
     /**
