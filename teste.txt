@@ -1,3 +1,0 @@
-arquivo de configuracao
-dois
-setup-backend

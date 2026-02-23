@@ -1,18 +1,19 @@
 <?php
-require "Usuarios.php";
+$nome = $_POST['nome'] ?? '';
 
-$nome = $_POST['nome'] ?? '';                    
+echo '<pre>';
+print_r($nome);
+echo '</pre>';
 
-if($nome === '')                                    
-{
-  echo "Nome obrigatorio";
+if('nome' === 0){
+  echo "nome obrigatorio";
   exit;
 }
 
-$usuario =  new Usuarios();
-$usuario->salvar($nome);
+$arquivo = 'dados.txt';
 
-header('Location: listar.php');                                 
-exit;
+file_put_contents($arquivo, $nome . PHP_EOL, FILE_APPEND);
+
+header('Location: listar.php');
 
 ?>
