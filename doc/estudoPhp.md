@@ -699,3 +699,179 @@ foreach($lines as $line){
 
 ### por hoje é só [2026-02-23 11:52]✌️
 - salvar tudo no git e chau chau👋
+
+```bash
+cristiano@Akilles:/mnt/c/Users/brito/desktop/phpBackEnd$ git branch
+  2-criar-php-procedural
+  develop
+* feat/read-arq
+  feature/create-objects
+  feature/ler-arquivo-de-texto
+  feature/setup-backend
+  feature/shell-config
+  fix
+  main
+cristiano@Akilles:/mnt/c/Users/brito/desktop/phpBackEnd$ git status
+On branch feat/read-arq
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Usuarios.php
+        modified:   dados.txt
+        modified:   index.php
+        modified:   listar.php
+        modified:   salvar.php
+        deleted:    teste.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        doc/
+        form.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+cristiano@Akilles:/mnt/c/Users/brito/desktop/phpBackEnd$ git add .
+cristiano@Akilles:/mnt/c/Users/brito/desktop/phpBackEnd$ git status
+On branch feat/read-arq
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    Usuarios.php
+        modified:   dados.txt
+        new file:   doc/estudoPhp.html
+        new file:   doc/estudoPhp.md
+        new file:   doc/estudoPhp.pdf
+        new file:   doc/image-1.png
+        new file:   doc/image-10.png
+        new file:   doc/image-11.png
+        new file:   doc/image-12.png
+        new file:   doc/image-13.png
+        new file:   doc/image-14.png
+        new file:   doc/image-15.png
+        new file:   doc/image-16.png
+        new file:   doc/image-17.png
+        new file:   doc/image-18.png
+        new file:   doc/image-19.png
+        new file:   doc/image-2.png
+        new file:   doc/image-20.png
+        new file:   doc/image-21.png
+        new file:   doc/image-22.png
+        new file:   doc/image-23.png
+        new file:   doc/image-24.png
+        new file:   doc/image-25.png
+        new file:   doc/image-26.png
+        new file:   doc/image-27.png
+        new file:   doc/image-28.png
+        new file:   doc/image-29.png
+        new file:   doc/image-3.png
+        new file:   doc/image-30.png
+        new file:   doc/image-31.png
+        new file:   doc/image-32.png
+        new file:   doc/image-33.png
+        new file:   doc/image-34.png
+        new file:   doc/image-35.png
+        new file:   doc/image-36.png
+        new file:   doc/image-37.png
+        new file:   doc/image-38.png
+        new file:   doc/image-39.png
+        new file:   doc/image-4.png
+        new file:   doc/image-40.png
+        new file:   doc/image-41.png
+        new file:   doc/image-42.png
+        new file:   doc/image-43.png
+        new file:   doc/image-44.png
+        new file:   doc/image-45.png
+        new file:   doc/image-46.png
+        new file:   doc/image-47.png
+        new file:   doc/image-5.png
+        new file:   doc/image-6.png
+        new file:   doc/image-7.png
+        new file:   doc/image-8.png
+        new file:   doc/image-9.png
+        new file:   doc/image.png
+        new file:   form.php
+        modified:   index.php
+        modified:   listar.php
+        modified:   salvar.php
+        deleted:    teste.txt
+
+cristiano@Akilles:/mnt/c/Users/brito/desktop/phpBackEnd$ git commit -m "criando arquivo e persistindo os dados"
+[feat/read-arq 1353f8e] criando arquivo e persistindo os dados
+ 58 files changed, 1420 insertions(+), 144 deletions(-)
+ delete mode 100644 Usuarios.php
+ create mode 100644 doc/estudoPhp.html
+ create mode 100644 doc/estudoPhp.md
+ create mode 100644 doc/estudoPhp.pdf
+ create mode 100644 doc/image-1.png
+ create mode 100644 doc/image-10.png
+ create mode 100644 doc/image-11.png
+ create mode 100644 doc/image-12.png
+ create mode 100644 doc/image-13.png
+ create mode 100644 doc/image-14.png
+ create mode 100644 doc/image-15.png
+ create mode 100644 doc/image-16.png
+ create mode 100644 doc/image-17.png
+ create mode 100644 doc/image-18.png
+ create mode 100644 doc/image-19.png
+ create mode 100644 doc/image-2.png
+ create mode 100644 doc/image-20.png
+ create mode 100644 doc/image-21.png
+ create mode 100644 doc/image-22.png
+ create mode 100644 doc/image-23.png
+ create mode 100644 doc/image-24.png
+ create mode 100644 doc/image-25.png
+ create mode 100644 doc/image-26.png
+ create mode 100644 doc/image-27.png
+ create mode 100644 doc/image-28.png
+ create mode 100644 doc/image-29.png
+ create mode 100644 doc/image-3.png
+ create mode 100644 doc/image-30.png
+ create mode 100644 doc/image-31.png
+ create mode 100644 doc/image-32.png
+ create mode 100644 doc/image-33.png
+ create mode 100644 doc/image-34.png
+ create mode 100644 doc/image-35.png
+ create mode 100644 doc/image-36.png
+ create mode 100644 doc/image-37.png
+ create mode 100644 doc/image-38.png
+ create mode 100644 doc/image-39.png
+ create mode 100644 doc/image-4.png
+ create mode 100644 doc/image-40.png
+ create mode 100644 doc/image-41.png
+ create mode 100644 doc/image-42.png
+ create mode 100644 doc/image-43.png
+ create mode 100644 doc/image-44.png
+ create mode 100644 doc/image-45.png
+ create mode 100644 doc/image-46.png
+ create mode 100644 doc/image-47.png
+ create mode 100644 doc/image-5.png
+ create mode 100644 doc/image-6.png
+ create mode 100644 doc/image-7.png
+ create mode 100644 doc/image-8.png
+ create mode 100644 doc/image-9.png
+ create mode 100644 doc/image.png
+ create mode 100644 form.php
+ delete mode 100644 teste.txt
+cristiano@Akilles:/mnt/c/Users/brito/desktop/phpBackEnd$ git status
+On branch feat/read-arq
+nothing to commit, working tree clean
+cristiano@Akilles:/mnt/c/Users/brito/desktop/phpBackEnd$ git brach
+git: 'brach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+cristiano@Akilles:/mnt/c/Users/brito/desktop/phpBackEnd$ git branch
+  2-criar-php-procedural
+  develop
+* feat/read-arq
+  feature/create-objects
+  feature/ler-arquivo-de-texto
+  feature/setup-backend
+  feature/shell-config
+  fix
+  main
+cristiano@Akilles:/mnt/c/Users/brito/desktop/phpBackEnd$ 
+
+```
+
+---
+
+# POR HOJE FUI [2026-02-23 12:03]
